@@ -2,10 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/DXSample/Default.aspx) (VB: [Default.aspx](./VB/DXSample/Default.aspx))
-* [customExtension.js](./CS/DXSample/scripts/customExtension/customExtension.js) (VB: [customExtension.js](./VB/DXSample/scripts/customExtension/customExtension.js))
-* [icon.js](./CS/DXSample/scripts/customExtension/icon.js) (VB: [icon.js](./VB/DXSample/scripts/customExtension/icon.js))
-* [meta.js](./CS/DXSample/scripts/customExtension/meta.js) (VB: [meta.js](./VB/DXSample/scripts/customExtension/meta.js))
-* [viewer.js](./CS/DXSample/scripts/customExtension/viewer.js) (VB: [viewer.js](./VB/DXSample/scripts/customExtension/viewer.js))
+* [customExtension.js](./CS/DXSample/scripts/CustomItemExtension.js) (VB: [customExtension.js](./VB/DXSample/scripts/CustomItemExtension.js))
 <!-- default file list end -->
 # ASPxDashboard - How to create a custom dashboard item extension
 

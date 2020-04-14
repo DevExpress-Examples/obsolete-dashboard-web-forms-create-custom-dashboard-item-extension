@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DXSample.Default" %>
 
-<%@ Register Assembly="DevExpress.Dashboard.v17.1.Web, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
+<%@ Register Assembly="DevExpress.Dashboard.v20.1.Web.WebForms, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
     Namespace="DevExpress.DashboardWeb" TagPrefix="dx" %>
 
 <!DOCTYPE html>
@@ -15,7 +15,7 @@
     <script type="text/javascript">
         function onBeforeRender(sender) {
             var dashboardControl = sender.GetDashboardControl();
-            dashboardControl.registerExtension(implementCustomExtension(dashboardControl));
+            dashboardControl.registerExtension(new CustomItemExtension(dashboardControl));
         }
         </script>
 </head>
@@ -28,9 +28,6 @@
         </div>
     </form>
     
-    <script src="scripts/customExtension/meta.js" type="text/javascript"></script>
-    <script src="scripts/customExtension/icon.js" type="text/javascript"></script>
-    <script src="scripts/customExtension/viewer.js" type="text/javascript"></script>
-    <script src="scripts/customExtension/customExtension.js" type="text/javascript"></script>
+    <script src="scripts/CustomItemExtension.js" type="text/javascript"></script>
 </body>
 </html>
